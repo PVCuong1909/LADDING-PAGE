@@ -41,7 +41,8 @@ header {
   position: fixed;
 }
 header.sticky {
-  background: #fff;
+  background-color: #fff;
+  z-index: 1100;
 }
 header.sticky #main-menu li a.name,
 header.sticky #main-menu li.has-child::after {
@@ -138,7 +139,7 @@ a.login {
 #banner {
   background: url(backround-đẹp01-1024x640.jpg);
   background-size: cover;
-  min-height: 780px;
+  min-height: 850px;
   width: 100%;
 }
 .inner-alignCenter {
@@ -225,7 +226,7 @@ section {
   width: 100%;
   height: 110px;
   position: absolute;
-  bottom: 80px;
+  bottom: 74px;
 }
 .wave.wave1 {
   background: url(wave.png);
@@ -329,7 +330,8 @@ section {
   display: flex;
   align-items: center;
 }
-.elementor .elementor-section-left h4.title-selector {
+.elementor .elementor-section-left h4.title-selector,
+.elementor-2 .elementor-content h4.title-selector {
   color: #5138ee;
   text-transform: uppercase;
   margin-bottom: 15px;
@@ -337,7 +339,8 @@ section {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
-.elementor .elementor-section-left h2.subtitle-selector {
+.elementor .elementor-section-left h2.subtitle-selector,
+.elementor-2 .elementor-content h2.subtitle-selector {
   color: #202949;
   font-size: 36px;
   padding-bottom: 30px;
@@ -431,4 +434,924 @@ section {
 }
 .elementor-2 div.elementor-section-2 {
   height: 500px;
+  display: flex;
+}
+.elementor-2 div.elementor-section-2-img {
+  width: 600px;
+  height: 500px;
+  display: flex;
+}
+.elementor-2 img.img-pic {
+  width: 630px;
+  height: 415px;
+  margin-top: 25px;
+}
+.elementor-2 div.elementor-content {
+  padding-left: 80px;
+  padding-right: 15px;
+}
+.elementor-2 .elementor-content p.sec-text {
+  width: 541px;
+  color: #666666;
+
+  font-weight: 400;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  line-height: 1.7;
+}
+.elementor-2 div.elementor-icon-info {
+  height: 250px;
+}
+.elementor-2 div.elementor-icon-info ul {
+  height: 100%;
+}
+
+.elementor-2 div.elementor-icon-info li {
+  height: 120px;
+  margin-top: 30px;
+  display: flex;
+}
+.elementor-2 div.elementor-icon-info div.icon {
+  height: 80px;
+  margin-right: 20px;
+}
+.elementor-2 .elementor-icon-info div.icon-1 {
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  background: #02ebad;
+  display: flex;
+  font-size: 35px;
+  align-items: center;
+  justify-content: center;
+}
+.elementor-2 .elementor-icon-info div.icon-1::after {
+  content: "\f4fe";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  color: #fff;
+}
+.elementor-2 div.elementor-icon-info div.info {
+  height: 90px;
+}
+.elementor-2 div.elementor-icon-info div.info h5 {
+  color: #202942;
+  font-size: 20px;
+  margin-bottom: 15px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.elementor-2 div.elementor-icon-info div.info p {
+  color: #666666;
+  width: 505px;
+  font-weight: 400;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  line-height: 1.4;
+}
+.elementor-2 .elementor-icon-info div.icon-2 {
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  background: #5138ee;
+  display: flex;
+  font-size: 35px;
+  align-items: center;
+  justify-content: center;
+}
+.elementor-2 .elementor-icon-info div.icon-2::after {
+  content: "\f2ea";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  color: #fff;
+}
+.elementor-3 {
+  padding-bottom: 120px;
+  height: 240px;
+  width: 100%;
+}
+.elementor-3 .elementor-section-3 {
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.elementor-3 .item {
+  margin-right: 30px;
+}
+.elementor-3 .itme-img {
+  width: 270px;
+  border-radius: 5px;
+  border: 1px solid #e7e7e7;
+  padding: 30px 50px;
+  background: #fdfdfd;
+}
+.elementor-4 {
+  width: 100%;
+  height: 1000px;
+  background: url(38.png);
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: 50% auto;
+  background-color: #040836;
+  padding: 120px 0px;
+  position: relative;
+}
+.elementor-4 .elementor-section-4 {
+  display: flex;
+  justify-content: center;
+  margin-right: auto;
+  margin-left: auto;
+  height: 165px;
+}
+.elementor-4 .elementor-section-4 .site-heading {
+  margin-bottom: 60px;
+}
+.elementor-4 .elementor-section-4 h4.title-selector {
+  color: #5138ee;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+  font-size: 20px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  justify-content: center;
+  display: flex;
+}
+.elementor-4 .elementor-section-4 h2.subtitle-selector {
+  font-size: 36px;
+
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.elementor-4 .elementor-section-4 h5.subtitle-selector {
+  font-size: 20px;
+  justify-content: center;
+  display: flex;
+}
+.elementor-4 .elementor-section-4-box {
+  height: 65px;
+  margin-bottom: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.elementor-4 .elementor-section-4-box-1,
+.elementor-4 .elementor-section-4-box-2 {
+  padding: 20px 35px;
+  margin: 5px;
+  border: 1px solid rgba(255, 255, 255, 0.4) !important;
+  border-radius: 10px !important;
+}
+.elementor-4 .elementor-section-4-box-font {
+  font-size: 16px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.elementor-4 .elementor-section-4-box-1 {
+  background-color: #5138ee;
+}
+.elementor-4 .elementor-section-4-box-2 {
+  background-color: #190ce01f;
+}
+.elementor-4 .elementor-section-4-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.elementor-4 .elementor-section-4-img {
+  padding-right: 100px;
+  padding-left: 30px;
+}
+.elementor-4 .section-4-img {
+  width: 388px;
+  height: 300px;
+}
+.elementor-4 .elementor-section-4-info {
+  width: 453px;
+  height: 495px;
+}
+.elementor-4 .elementor-section-4-info h2.info-name {
+  font-weight: 900;
+  margin-bottom: 25px;
+  font-size: 30px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.elementor-4 .elementor-section-4-info p.info-text {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  line-height: 1.4;
+  font-size: 15px;
+  opacity: 0.8;
+}
+.elementor-4 .elementor-section-4-info ul {
+  height: 281px;
+  margin-top: 30px;
+  padding-left: 20px;
+}
+.elementor-4 .elementor-section-4-info li {
+  height: 130px;
+  margin-top: 30px;
+  padding-top: 10px;
+  display: flex;
+  border-top: 1px solid #e7e7e733;
+}
+.elementor-4 .elementor-section-4-info h4 {
+  margin-bottom: 15px;
+  font-size: 21px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.elementor-4 .elementor-section-4-icon {
+  height: 30px;
+  width: 50px;
+  margin-right: 20px;
+  border-radius: 50%;
+  background: url(backround-đẹp01-1024x640.jpg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.elementor-4 .elementor-section-4-icon::after {
+  content: "\f00c";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  color: #fff;
+  font-size: 20px;
+}
+.elementor-4 .elementor-section-4-info p {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  line-height: 1.4;
+  font-size: 15px;
+  opacity: 0.8;
+}
+.elementor-5 {
+  width: 100%;
+  height: 850px;
+  background-image: url(33.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.elementor-5 .elementor-widget-5 {
+  padding: 120px 0px 90px 0px;
+  height: 100%;
+}
+.elementor-5 .elementor-team-area-5 {
+  height: 640px;
+}
+.elementor-5 .elementor-widget-5-row {
+  width: 966px;
+  height: 190px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.elementor-5 .elementor-widget-5-row .row,
+.elementor-6 .elementor-widget-6-row .row {
+  margin-bottom: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.elementor-5 .elementor-widget-5-row h2,
+.elementor-6 .elementor-widget-6-row h2 {
+  color: #202942;
+  font-size: 36px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.elementor-5 .elementor-widget-5-row h5,
+.elementor-6 .elementor-widget-6-row h5 {
+  font-size: 20px;
+  color: #5138ee;
+}
+.elementor-5 .elementor-widget-5-row p.top,
+.elementor-6 .elementor-widget-6-row p.top {
+  margin-top: 10px;
+  width: 617px;
+  color: #666666;
+  font-weight: 400;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.elementor-5 .elementor-widget-5-row p.bottom,
+.elementor-6 .elementor-widget-6-row p.bottom {
+  width: 375px;
+  color: #666666;
+  font-weight: 400;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 15px;
+  margin: auto;
+  margin-top: 10px;
+}
+.elementor-5 .elementor-widget-5-team {
+  height: 450px;
+  width: 1206px;
+  margin: auto;
+}
+.elementor-5 .elementor-widget-5-team-items {
+  display: flex;
+  justify-content: space-evenly;
+}
+.elementor-5 .elementor-widget-5-team img.team-items {
+  width: 362px;
+  height: 407px;
+  border-radius: 8px;
+}
+.elementor-5 .elementor-widget-5-team div.team-info {
+  padding: 30px;
+  padding-bottom: 0;
+  margin-bottom: -5px;
+}
+.elementor-5 .elementor-widget-5-team div.team-info h4 {
+  color: #202942;
+  font-size: 20px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin-bottom: 5px;
+}
+.elementor-5 .elementor-widget-5-team div.team-info span {
+  color: #898989;
+  font-size: 15px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 500;
+}
+.elementor-5 .elementor-widget-5-team-items-1 {
+  display: block;
+  position: relative;
+}
+.elementor-5 .elementor-widget-5-team div.social {
+  position: absolute;
+  right: 30px;
+  bottom: 150px;
+  opacity: 0;
+  width: 45px;
+  height: 45px;
+  background: linear-gradient(45deg, #02ebad 0%, #5a57fb 50%);
+  border-radius: 10px;
+  box-shadow: 0px 0px 0px 5px white;
+  transform: rotate(45deg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.elementor-5 .elementor-widget-5-team div.social::after {
+  content: "\f00d";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  color: #fff;
+  font-size: 20px;
+}
+.elementor-5 .elementor-widget-5-team img.team-items:hover div.social {
+  opacity: 0.8;
+  visibility: visible;
+}
+.elementor-6 {
+  padding: 120px 0px 90px 0px;
+  width: 100%;
+  height: 950px;
+  background-color: #edf5ff;
+}
+.elementor-6 .elementor-widget-6 {
+  height: 100%;
+}
+.elementor-6 .elementor-widget-6-row {
+  width: 966px;
+  height: 190px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.elementor-6 .elementor-widget-6-team {
+  height: 550px;
+  width: 1200px;
+  margin: auto;
+  display: flex;
+}
+.elementor-6 .elementor-widget-6-team .pricing-style-two-box {
+  padding: 0 15px;
+  margin-bottom: 30px;
+  height: 510px;
+  width: 402px;
+}
+.elementor-6 .pricing-style-two-box .pricing-item {
+  padding: 50px 40px;
+  background: white;
+  border-radius: 5px;
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+.elementor-6 .pricing-style-two-box .pricing-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 15px;
+  color: #202942;
+  font-size: 20px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 700;
+}
+.elementor-6 .pricing-style-two-box .pricing-header::after {
+  content: "\f135";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  color: rgb(134 134 132 / 23%);
+  font-size: 50px;
+}
+.elementor-6 .pricing-style-two-box .pricing-item h2 {
+  font-size: 60px;
+  font-weight: 900;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #e7e7e7;
+  height: 102px;
+  color: #202942;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.elementor-6 .pricing-style-two-box .pricing-item h2 sub {
+  font-size: 15px;
+  font-weight: 500;
+  margin-left: -10px;
+}
+.elementor-6 .pricing-style-two-box .pricing-item h2 sup {
+  font-weight: 900;
+  font-size: 36px;
+}
+.elementor-6 .pricing-style-two-box .pricing-item li {
+  line-height: 35px;
+  font-size: 16px;
+  font-weight: 400px;
+  color: #202942;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.elementor-6 .pricing-style-two-box .pricing-item li::before {
+  content: "\f00c";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  color: rgb(134 134 132 / 23%);
+  font-size: 15px;
+  margin-right: 5px;
+  color: #36cc72;
+}
+.elementor-6 .pricing-style-two-box .pricing-box {
+  margin-top: 30px;
+  border: 2px solid #edf5ff;
+  background: transparent;
+  padding: 16px 40px;
+  width: 186px;
+  border-radius: 30px !important;
+  color: #202942;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  transition: all 0.35s ease-in-out;
+}
+.elementor-6 .pricing-style-two-box .pricing-item-1 {
+  padding: 50px 40px;
+  background: linear-gradient(45deg, #02ebad 0%, #5a57fb 50%);
+  border-radius: 5px;
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+.elementor-6 .pricing-style-two-box .pricing-item-1 h2 {
+  font-size: 60px;
+  font-weight: 900;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #e7e7e7;
+  height: 102px;
+  color: #fff;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.elementor-6 .pricing-style-two-box .pricing-item-1 h2 sub {
+  font-size: 15px;
+  font-weight: 500;
+  margin-left: -10px;
+}
+.elementor-6 .pricing-style-two-box .pricing-item-1 h2 sup {
+  font-weight: 900;
+  font-size: 36px;
+}
+.elementor-6 .pricing-style-two-box .pricing-item-1 li {
+  line-height: 35px;
+  font-size: 16px;
+  font-weight: 400px;
+  color: #fff;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.elementor-6 .pricing-style-two-box .pricing-item-1 li::before {
+  content: "\f00c";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  color: rgb(134 134 132 / 23%);
+  font-size: 15px;
+  margin-right: 5px;
+  color: #fff;
+}
+.elementor-6 .pricing-style-two-box .pricing-header-1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 15px;
+  color: #fff;
+  font-size: 20px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 700;
+}
+.elementor-6 .pricing-style-two-box .pricing-header-1::after {
+  content: "\f3a5";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  color: #fff;
+  font-size: 50px;
+}
+.elementor-6 .pricing-style-two-box .pricing-box-1 {
+  margin-top: 30px;
+  border: 2px solid #5138ee;
+  background: #5138ee;
+  padding: 16px 40px;
+  width: 186px;
+  border-radius: 30px !important;
+  color: #fff;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  transition: all 0.35s ease-in-out;
+}
+.elementor-6 .pricing-style-two-box .pricing-box-1:hover {
+  background: #040304;
+  border: 2px solid #040304;
+}
+.elementor-6 .pricing-style-two-box .pricing-box:hover {
+  background: #5138ee;
+  border: 2px solid #5138ee;
+  color: #fff;
+}
+.elementor-7 {
+  padding: 120px 0px 90px 0px;
+  width: 100%;
+  height: 930px;
+}
+.elementor-7 .elementor-widget-7 {
+  height: 100%;
+}
+.elementor-7 .elementor-widget-7-row {
+  width: 966px;
+  height: 190px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.elementor-7 .elementor-widget-7-row .row {
+  margin-bottom: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.elementor-7 .elementor-widget-7-row h2 {
+  color: #202942;
+  font-size: 36px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.elementor-7 .elementor-widget-7-row h5 {
+  font-size: 20px;
+  color: #5138ee;
+}
+.elementor-7 .elementor-widget-7-row p.top {
+  margin-top: 10px;
+  width: 617px;
+  color: #666666;
+  font-weight: 400;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.elementor-7 .elementor-widget-7-row p.bottom {
+  width: 375px;
+  color: #666666;
+  font-weight: 400;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 15px;
+  margin: auto;
+  margin-top: 10px;
+}
+.elementor-7 .elementor-widget-7-new {
+  margin-right: auto;
+  margin-left: auto;
+  height: 530px;
+}
+.elementor-7 .elementor-widget-7-new .elementor-widget-7-pic {
+  width: 372px;
+  height: 500px;
+  margin-bottom: 30px;
+  box-shadow: 1px 4px 20px -2px rgb(0 0 0 / 10%);
+  border-radius: 8px;
+  position: relative;
+}
+.elementor-7 .elementor-widget-7-new .elementor-widget-7-pic img {
+  width: 372px;
+  height: 279px;
+  border-radius: 10px 10px 0px 0px;
+}
+.elementor-7 .elementor-widget-7-new .elementor-widget-7-pic div.date {
+  border-radius: 8px;
+  display: inline-block;
+  background: #fff;
+  color: #232323;
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: 900;
+  text-align: center;
+  box-shadow: 0 0 10px #cccccc;
+  width: 70px;
+  height: 52px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  position: absolute;
+  bottom: 202px;
+  right: 37px;
+}
+.elementor-7 .elementor-widget-7-new .elementor-widget-7-pic div.date strong {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  padding: 5px;
+}
+.elementor-7 .elementor-widget-7-new .elementor-widget-7-pic div.date span {
+  background: #5138ee;
+  color: #fff;
+  font-size: 18px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  padding: 0 19px;
+  border-radius: 0 0 8px 8px;
+}
+.elementor-7 .elementor-widget-7-flex {
+  height: 530px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-evenly;
+  width: 1206px;
+}
+.elementor-7 .elementor-widget-7-info {
+  padding: 30px;
+  height: 217px;
+}
+.elementor-7 .elementor-widget-7-info .meta {
+  margin-bottom: 15px;
+  margin-top: -8px;
+}
+.elementor-7 .elementor-widget-7-info .meta li {
+  color: #666666;
+  font-size: 15px;
+  margin-right: 25px;
+  transition: all 0.35s ease-in-out;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.elementor-7 .elementor-widget-7-info .meta li:hover {
+  color: #5138ee;
+}
+.fa-user-circle:before {
+  content: "\f2bd";
+}
+.fa-comments:before {
+  content: "\f086";
+}
+.elementor-7 .elementor-widget-7-info .meta ul {
+  display: flex;
+}
+.elementor-7 .elementor-widget-7-info .meta li i {
+  margin-right: 5px;
+  color: #5138ee;
+  font-weight: 3;
+}
+.elementor-7 .elementor-widget-7-info .meta h4 {
+  color: #202942;
+  font-size: 20px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  line-height: 1.4;
+  margin: 15px 0;
+  transition: all 0.35s ease-in-out;
+}
+.elementor-7 .elementor-widget-7-info .meta h4:hover {
+  color: #5138ee;
+}
+.elementor-7 .elementor-widget-7-info .meta p {
+  color: #666666;
+  font-size: 14px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  line-height: 1.7;
+}
+.elementor-8 {
+  width: 100%;
+  height: 460px;
+}
+.elementor-8 .elementor-backgroud-8 {
+  padding: 120px 50px;
+  background: #5138ee;
+  height: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right top;
+  position: relative;
+}
+.elementor-8 .elementor-widget-8-row {
+  width: 758px;
+  height: 220px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.elementor-8 .elementor-widget-8-row h5 {
+  font-size: 20px;
+  font-weight: 900;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: center;
+}
+.elementor-8 .elementor-widget-8-row h2 {
+  font-size: 36px;
+  font-weight: 900;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  display: flex;
+  justify-content: center;
+}
+.elementor-8 .elementor-widget-8-row .newsletter-form {
+  position: relative;
+  margin-top: 30px;
+}
+.elementor-8 .elementor-widget-8-row .newsletter-form input {
+  background: #fff;
+  border: none;
+  min-height: 65px;
+  border-radius: 50px;
+  padding-left: 30px;
+  width: 765px;
+}
+.elementor-8 .elementor-widget-8-row .newsletter-form button {
+  border-radius: 30px;
+  min-height: 55px;
+  min-width: 150px;
+  font-weight: 900;
+  background: linear-gradient(45deg, #02ebad 0%, #5a57fb 50%);
+  color: #fff;
+  position: absolute;
+  right: 0px;
+  top: 5px;
+}
+.elementor-9 {
+  background-color: #040836;
+}
+.elementor-9 .elementor-container-9 {
+  width: 100%;
+  padding-right: var(--bs-gutter-x, 0.75rem);
+  padding-left: var(--bs-gutter-x, 0.75rem);
+  margin-right: auto;
+  margin-left: auto;
+}
+.elementor-9 .elementor-footer-top {
+  padding-top: 70px;
+  padding-bottom: 120px;
+  height: 526px;
+  width: 1176px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.elementor-9 .elementor-footer-top .row {
+  display: flex;
+}
+.elementor-9 .elementor-footer-top .row .item-1 {
+  padding: 0 15px;
+  margin-top: 50px;
+}
+.elementor-9 .elementor-footer-top .row .f-item {
+  border-right: 1px solid rgba(255, 255, 255, 0.1);
+  padding-right: 40px;
+  margin-right: 10px;
+}
+.elementor-9 .elementor-footer-top .row .f-item img {
+  margin-bottom: 30px;
+}
+.elementor-9 .elementor-footer-top .row .f-item p {
+  color: #adb5bd;
+  height: 102px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  width: 321px;
+  line-height: 1.7;
+  font-size: 15px;
+}
+.elementor-9 .elementor-footer-top .row .f-item .newsletter-form {
+  position: relative;
+  margin-top: 30px;
+}
+.elementor-9 .elementor-footer-top .row .f-item .newsletter-form input {
+  background: #283353;
+  color: #fff;
+  border: 1px dashed rgba(255, 255, 255, 0.1);
+  font-size: 14px;
+  padding: 6px 12px 6px 20px;
+  width: 321px;
+  height: 50px;
+}
+.elementor-9 .elementor-footer-top .row .f-item .newsletter-form button {
+  height: 52px;
+  width: 52px;
+  font-size: 25px;
+  line-height: 55px;
+  border-radius: 0 5px 5px 0;
+  color: #fff;
+  background: #5138ee;
+  position: absolute;
+  right: -4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 0;
+}
+.fa-arrow-right:before {
+  content: "\f061";
+}
+
+.elementor-9 .elementor-footer-top .widget-title h4 {
+  font-size: 20px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin-bottom: 30px;
+}
+.elementor-9 .elementor-footer-top .widget-title li.arrow-right {
+  margin-bottom: 19px;
+  font-size: 15px;
+  color: #adb5bd;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.elementor-9 .elementor-footer-top .widget-title li.arrow-right::before {
+  content: "\f105";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  color: #fff;
+  font-size: 12px;
+  margin-right: 5px;
+}
+.elementor-9 .elementor-footer-top .widget-title .address {
+  margin-top: 30px;
+}
+.elementor-9 .elementor-footer-top .widget-title .address li i {
+  display: inline-block;
+  height: 45px;
+  width: 45px;
+  text-align: center;
+  line-height: 45px;
+  border-radius: 50%;
+  margin-right: 20px;
+  background: rgba(255, 255, 255, 0.1);
+
+  border: 1px dashed rgba(255, 255, 255, 0.3);
+  font-size: 18px;
+}
+.fa-home:before {
+  content: "\f015";
+}
+.fa-envelope:before {
+  content: "\0e0";
+}
+.fa-phone:before {
+  content: "\095";
+}
+.elementor-9 .elementor-footer-top .widget-title .address li .content {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 15px;
+  color: #adb5bd;
+  line-height: 1.7;
+}
+.elementor-9 .elementor-footer-top .widget-title .address li strong {
+  display: block;
+  text-transform: uppercase;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 15px;
+  color: #fff;
+}
+.elementor-9 .elementor-footer-top .widget-title .address li {
+  display: flex;
+  margin-bottom: 10px;
 }
